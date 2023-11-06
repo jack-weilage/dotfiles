@@ -1,0 +1,7 @@
+[api]
+; Prevent upload
+; url = localhost
+
+[record]
+; Make sure the recording starts in fish
+; command = /usr/bin/fish -l

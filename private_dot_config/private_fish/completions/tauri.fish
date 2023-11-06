@@ -1,0 +1,1 @@
+cargo tauri completions --shell fish | source

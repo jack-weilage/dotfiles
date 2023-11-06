@@ -1,0 +1,17 @@
+[user]
+	name = Jack Weilage
+	email = jack@weilage.dev
+[init]
+	defaultBranch = main
+[alias]
+	c = commit -m
+	ss = status -s
+	aa = add --all
+	a = add
+	s = status
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

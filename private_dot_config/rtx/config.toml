@@ -1,0 +1,20 @@
+[tools]
+act = "latest"
+balena-cli = "latest"
+bottom = "latest"
+delta = "latest"
+exa = "latest"
+fzf = "latest"
+glow = "latest"
+hyperfine = "latest"
+lazygit = "latest"
+neovim = "latest"
+node = "latest"
+ripgrep = "latest"
+zoxide = "latest"
+tmux = "latest"
+websocat = "latest"
+chezmoi = "latest"
+
+[settings]
+experimental = true
