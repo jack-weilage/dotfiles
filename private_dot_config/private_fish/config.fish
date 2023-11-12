@@ -54,4 +54,6 @@ function update
     bun upgrade
     # Nvim update
     # nvim --headless +MasonUpdate +MasonInstallAll +TSUpdate
+    # Dotfiles update
+    chezmoi update
 end
