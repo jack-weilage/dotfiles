@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=Automatically lock the screen on startup
+Exec=/usr/bin/dbus-send --session --type=method_call --dest=org.freedesktop.ScreenSaver /ScreenSaver org.freedesktop.ScreenSaver.Lock
+GenericName[en_US]=
+GenericName=
+Icon=application-x-shellscript
+MimeType=
+Name[en_US]=AutoLock
+Name=AutoLock
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-AutostartScript=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

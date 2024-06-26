@@ -1,0 +1,5 @@
+# Fish variables are constantly changing, no need to save them
+.config/fish/fish_variables
+# Tide adds a _lot_ of files, but these aren't exactly configuration files.
+.config/fish/**/_tide*.fish
+.config/fish/functions/tide

@@ -1,0 +1,14 @@
+[user]
+    name = Jack Weilage
+    email = jack@weilage.dev
+    signingkey = BD8584F04EF09642
+[commit]
+    gpgsign = true
+[init]
+    defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
