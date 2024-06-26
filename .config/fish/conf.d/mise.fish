@@ -1,1 +1,1 @@
-/home/jack/.local/bin/mise activate fish | source
+/usr/bin/mise activate fish | source

@@ -30,4 +30,5 @@ fish_add_path "$CARGO_HOME/bin/"
 function update
     paru -Syu
     flatpak update
+    mise upgrade
 end

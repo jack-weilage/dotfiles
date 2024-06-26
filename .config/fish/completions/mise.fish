@@ -1,1 +1,1 @@
-/home/jack/.local/bin/mise completion fish | source
+/usr/bin/mise completion fish | source
