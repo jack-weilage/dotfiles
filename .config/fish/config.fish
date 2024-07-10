@@ -22,6 +22,7 @@ set -gx CARGO_HOME "$XDG_DATA_HOME/cargo"
 set -gx GOPATH "$XDG_DATA_HOME/go"
 set -gx GTK2_RC_FILES "$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 set -gx NODE_REPL_HISTORY "$XDG_DATA_HOME/node_repl_history"
+set -gx NPM_CONFIG_USERCONFIG "$XDG_CONFIG_HOME/npm/npmrc"
 alias wget "wget --hsts-file='$XDG_DATA_HOME/wget-hsts'"
 
 # Path additions
@@ -32,3 +33,7 @@ function update
     flatpak update
     mise upgrade
 end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

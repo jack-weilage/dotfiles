@@ -1,1 +1,1 @@
-/usr/bin/mise activate fish | source
+/usr/bin/mise activate --shims fish | source
