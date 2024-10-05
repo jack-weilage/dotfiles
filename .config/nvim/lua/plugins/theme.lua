@@ -4,6 +4,7 @@ return {
 		name = "ayu",
 		opts = {
 			overrides = {
+				Constant = { fg = "#FFEE99" },
 				LineNr = { fg = "#444B55" },
 				LspInlayHint = { fg = "#3B404A" },
 				LspCodeLens = { fg = "#3B404A" },
