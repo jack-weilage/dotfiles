@@ -1,4 +1,4 @@
 [tools]
 node = "latest"
 java = "23"
-rust = "latest"
+gradle = "latest"
