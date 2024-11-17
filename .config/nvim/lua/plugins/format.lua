@@ -11,6 +11,7 @@ return {
 		"stevearc/conform.nvim",
 		opts = {
 			formatters_by_ft = {
+				["svelte"] = { "prettierd" },
 				["javascript"] = { "prettierd" },
 				["typescript"] = { "prettierd" },
 				["javascriptreact"] = { "prettierd" },
